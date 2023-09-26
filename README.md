@@ -37,3 +37,9 @@ TCS34725 color sensor: it is a sensor responsible for detecting colors in R G B 
 Rev Robotics servo motor: An electric motor with an integrated position feedback sensor, which allows perfect angled movements to be made, using a signal that ranges from 0V to 5V, where each value that the voltage may have represents an exact angle, fulfilling with excellence the function of making the turns
 
 Electric motor: a device that converts electrical energy into mechanical movement, allowing in this case to move a gearbox and mobilize the wheels. The speed and torque it has are determined by the voltage sent by the H-bridge, being moderated by the arduino.
+
+The Arduino is powered by a 9v battery, which is turned on by a switch, and is responsible for powering and giving respective signals to the servomotor, it will be able to make the crossings effectively with ease, and also energize and receive the signals. the sensors, such as the ultra sound that sends and receives the signals to calculate the respective time, and with it, the distance to a certain obstacle, is also connected by serial to the color sensor, to receive the exact values ​​in RGBC
+
+
+Moving on to the H bridge, this is connected and powered by a 3.7 v battery pack and is turned on by the same switch that turns on the Arduino.
+The H-bridge receives signals from the Arduino so it receives digital and analog signals, giving it the ability to move the motor in different directions and speeds. It is also responsible for powering the Esp 32 cam through the 5v port.
