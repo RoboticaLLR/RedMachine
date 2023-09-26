@@ -21,3 +21,19 @@ however as we did it for ourselves it had lots of imperfections on the holes we 
 
 After doing our first base of the chassis, we started looking for a way to add a traction and a direction system because the rules were really specific about it, and we really focus on doing it, also we made all the spaces for the electronical componenetes such as the arduino, bridge H and sensors. At this moment we realized the asymetrical the acrylic was, but we were really in a hurry because of the competition and we aplied some 
 momentary fixes to it. But overall the robot was doing a good performance and he started to score some points
+
+# Strategy
+In this part of the process we started to make the prototype a robot itself, by connecting all the electronic components and started coding to complete the first challeng and start earning our first 30 points. The components we use to complete this challenge was:
+
+ Arduino Mega 2560: an open-source development board built with a micro controller, input and output signals, responsible for enabling and disabling certain components.
+
+H-bridge: It is a type of electrical circuit that allows changing the polarity of a DC motor, forward and reverse. The H-Bridge model used is the L298N which allows us to change the speed depending on the voltage sent by the arduino.
+
+Ultrasonic sensor: It is a sensor that uses ultrasonic sounds to detect the bounce time of the sound back and forth. Using the Arduino
+Mega 2560 we can determine the distance based on the time it takes for the wave to return, performing the function of determining when there is a wall nearby, and thus making the corresponding turn.
+
+TCS34725 color sensor: it is a sensor responsible for detecting colors in R G B C format, these being Red (R) Green (G) Blue (B) Clear (C) where it allows calculating the intensity of the colors and thus transmitting them to the Arduino Mega in a number from 0 to 65535 to associate them with the corresponding colors, allowing you to determine the colors present on the court, to decide which side to turn to.
+
+Rev Robotics servo motor: An electric motor with an integrated position feedback sensor, which allows perfect angled movements to be made, using a signal that ranges from 0V to 5V, where each value that the voltage may have represents an exact angle, fulfilling with excellence the function of making the turns
+
+Electric motor: a device that converts electrical energy into mechanical movement, allowing in this case to move a gearbox and mobilize the wheels. The speed and torque it has are determined by the voltage sent by the H-bridge, being moderated by the arduino.
