@@ -48,7 +48,7 @@ H-bridge: It is a type of electrical circuit that allows changing the polarity o
 Ultrasonic sensor: It is a sensor that uses ultrasonic sounds to detect the bounce time of the sound back and forth. Using the Arduino
 Mega 2560 we can determine the distance based on the time it takes for the wave to return, performing the function of determining when there is a wall nearby, and thus making the corresponding turn.
 <p align = "center" >
-   <img src="![redvmachine foto](https://github.com/RoboticaLLR/RedMachine/assets/146040398/cfd2db13-9177-4e90-8c5a-41be4fa94e9f)" width="400" height="400" />
+   <img src="![Presentación sin título](https://github.com/RoboticaLLR/RedMachine/assets/146040398/5343f0f9-0859-45bf-b75e-fe573f4b4473) " width="400" height="400" />
 
 TCS34725 color sensor: it is a sensor responsible for detecting colors in R G B C format, these being Red (R) Green (G) Blue (B) Clear (C) where it allows calculating the intensity of the colors and thus transmitting them to the Arduino Mega in a number from 0 to 65535 to associate them with the corresponding colors, allowing you to determine the colors present on the court, to decide which side to turn to.
 <p align = "center" >
