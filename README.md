@@ -6,9 +6,14 @@ This repository is contains all the materials required to make "Julian" The self
 
 # Red Machine Members
 -Angel Saul Rodriguez Guerra
+
 -Samuel Jose Galban Franco
+
 -Juan Diego Cano Barros
 
+<p align = "center" >
+   <img src="![redvmachine foto](https://github.com/RoboticaLLR/RedMachine/assets/146040398/cfd2db13-9177-4e90-8c5a-41be4fa94e9f)" width="400" height="400" />
+   
 # Introduction
 We have made our biggest effort on doing the best robot we could. This has been really long road and it helped us a lot on things like programation, mechanical and design. After a lot of thinking and analyzing we have created out own stategy based on the electronical components we had, 
 fervently believing that it will have a good performance in this edition of the WRO.
