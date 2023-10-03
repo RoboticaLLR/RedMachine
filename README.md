@@ -39,28 +39,28 @@ In this part of the process, we started to make the prototype a robot itself, by
  Arduino Mega 2560: an open-source development board built with a microcontroller, and input and output signals, responsible for enabling and disabling certain components.
  <p align = "center" >
    <img src="![arduino mega](https://github.com/RoboticaLLR/RedMachine/assets/146040533/8b7f3519-9a16-42fe-908f-1c893ebd7c44)
-" width="400" height="400" />
+" width="200" height="200" />
 
 H-bridge: It is a type of electrical circuit that allows changing the polarity of a DC motor, forward and reverse. The H-Bridge model used is the L298N which allows us to change the speed depending on the voltage sent by the Arduino.
 <p align = "center" >
-   <img src="![puente H](https://github.com/RoboticaLLR/RedMachine/assets/146040533/877064c5-50a9-49cd-a4f7-e0c17d9782a3)" width="400" height="400" />
+   <img src="![puente H](https://github.com/RoboticaLLR/RedMachine/assets/146040533/877064c5-50a9-49cd-a4f7-e0c17d9782a3)" width="200" height="200" />
 
 Ultrasonic sensor: It is a sensor that uses ultrasonic sounds to detect the bounce time of the sound back and forth. Using the Arduino
 Mega 2560 we can determine the distance based on the time it takes for the wave to return, performing the function of determining when there is a wall nearby, and thus making the corresponding turn.
 <p align = "center" >
-   <img src="![Presentación sin título](https://github.com/RoboticaLLR/RedMachine/assets/146040398/5343f0f9-0859-45bf-b75e-fe573f4b4473) " width="400" height="400" />
+   <img src="![Presentación sin título](https://github.com/RoboticaLLR/RedMachine/assets/146040398/5343f0f9-0859-45bf-b75e-fe573f4b4473) " width="200" height="200" />
 
 TCS34725 color sensor: it is a sensor responsible for detecting colors in R G B C format, these being Red (R) Green (G) Blue (B) Clear (C) where it allows calculating the intensity of the colors and thus transmitting them to the Arduino Mega in a number from 0 to 65535 to associate them with the corresponding colors, allowing you to determine the colors present on the court, to decide which side to turn to.
 <p align = "center" >
-   <img src="![redvmachine foto](https://github.com/RoboticaLLR/RedMachine/assets/146040398/cfd2db13-9177-4e90-8c5a-41be4fa94e9f)" width="400" height="400" />
+   <img src="![rgb sensor](https://github.com/RoboticaLLR/RedMachine/assets/146040533/e38bddea-d411-4ba1-a98a-8904d23f571b)" width="200" height="200" />
 
 Rev Robotics servo motor: An electric motor with an integrated position feedback sensor, which allows perfect angled movements to be made, using a signal that ranges from 0V to 5V, where each value that the voltage may have represents an exact angle, fulfilling with excellence the function of making the turns
 <p align = "center" >
-   <img src="![redvmachine foto](https://github.com/RoboticaLLR/RedMachine/assets/146040398/cfd2db13-9177-4e90-8c5a-41be4fa94e9f)" width="400" height="400" />
+   <img src="![servo](https://github.com/RoboticaLLR/RedMachine/assets/146040533/a7145cfb-a3f8-41a6-a8c5-6c2951a2739b)" width="200" height="200" />
 
 Electric motor: a device that converts electrical energy into mechanical movement, allowing in this case to move a gearbox and mobilize the wheels. The speed and torque it has are determined by the voltage sent by the H-bridge, being moderated by the Arduino.
 <p align = "center" >
-   <img src="![redvmachine foto](https://github.com/RoboticaLLR/RedMachine/assets/146040398/cfd2db13-9177-4e90-8c5a-41be4fa94e9f)" width="400" height="400" />
+   <img src="![motor](https://github.com/RoboticaLLR/RedMachine/assets/146040533/25cdd9e8-1a60-463b-9196-becf5f72caca)" width="200" height="200" />
 
 The Arduino is powered by a 9v battery, which is turned on by a switch, and is responsible for powering and giving respective signals to the servomotor, it will be able to make the crossings effectively with ease, and also energize and receive the signals. the sensors, such as the ultrasound that sends and receives the signals to calculate the respective time, and with it, the distance to a certain obstacle, are also connected by serial to the color sensor, to receive the exact values ​​in RGBC
 
