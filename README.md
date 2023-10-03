@@ -26,7 +26,8 @@ definitely the hardest because we didnt have any help from anyone, and we didnt 
 Since this moment we focus on doing the chassis based on the requirements we will need in the future, such as the size and weight because we knew it may be a probblem in the future. so we cut the acrylic to the size using diferent tools, 
 however as we did it for ourselves it had lots of imperfections on the holes we made, so it gave us lots of problems in the future, because it required us to be symetric and it wasnt. But because we dont have any better option at the moment and we had a regional competition very soon we leave that like that.
 
-
+<p align = "center" >
+   <img src="![Presentación sin título](https://github.com/RoboticaLLR/RedMachine/assets/146040398/5e0a29d8-d2a3-401f-85e7-1cde14bf6e51)" width="200" height="200" />
 
 
 After doing our first base of the chassis, we started looking for a way to add a traction and a direction system because the rules were really specific about it, and we really focus on doing it, also we made all the spaces for the electronical componenetes such as the arduino, bridge H and sensors. At this moment we realized the asymetrical the acrylic was, but we were really in a hurry because of the competition and we aplied some 
