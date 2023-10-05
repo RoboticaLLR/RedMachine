@@ -37,24 +37,26 @@ In this part of the process, we started to make the prototype a robot itself, by
 
 
 H-bridge: It is a type of electrical circuit that allows changing the polarity of a DC motor, forward and reverse. The H-Bridge model used is the L298N which allows us to change the speed depending on the voltage sent by the Arduino.
-![puente H pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/b6a8e8ec-4f8f-4655-a25d-37fd54f0b0a4)
+
+![puente H pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/264757f2-118f-42c9-9dd8-2a3c91455834)
 
 Ultrasonic sensor: It is a sensor that uses ultrasonic sounds to detect the bounce time of the sound back and forth. Using the Arduino
 Mega 2560 we can determine the distance based on the time it takes for the wave to return, performing the function of determining when there is a wall nearby, and thus making the corresponding turn.
-<p align = "center" >
-   <img src="![Presentación sin título](https://github.com/RoboticaLLR/RedMachine/assets/146040398/5343f0f9-0859-45bf-b75e-fe573f4b4473) " width="200" height="200" />
+
+![ultrasonido pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/e8f17278-35e8-451b-9eb3-8465666ceec9)
 
 TCS34725 color sensor: it is a sensor responsible for detecting colors in R G B C format, these being Red (R) Green (G) Blue (B) Clear (C) where it allows calculating the intensity of the colors and thus transmitting them to the Arduino Mega in a number from 0 to 65535 to associate them with the corresponding colors, allowing you to determine the colors present on the court, to decide which side to turn to.
-<p align = "center" >
-   <img src="![rgb sensor](https://github.com/RoboticaLLR/RedMachine/assets/146040533/e38bddea-d411-4ba1-a98a-8904d23f571b)" width="200" height="200" />
+
+![rgb sensor pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/82128139-e35c-4e55-8477-f4b4c398e678)
 
 Rev Robotics servo motor: An electric motor with an integrated position feedback sensor, which allows perfect angled movements to be made, using a signal that ranges from 0V to 5V, where each value that the voltage may have represents an exact angle, fulfilling with excellence the function of making the turns
-<p align = "center" >
-   <img src="![servo](https://github.com/RoboticaLLR/RedMachine/assets/146040533/a7145cfb-a3f8-41a6-a8c5-6c2951a2739b)" width="200" height="200" />
+
+![servo pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/57aaa91d-b5e5-4360-aef2-06025d15f8b0)
 
 Electric motor: a device that converts electrical energy into mechanical movement, allowing in this case to move a gearbox and mobilize the wheels. The speed and torque it has are determined by the voltage sent by the H-bridge, being moderated by the Arduino.
-<p align = "center" >
-   <img src="![motor](https://github.com/RoboticaLLR/RedMachine/assets/146040533/25cdd9e8-1a60-463b-9196-becf5f72caca)" width="200" height="200" />
+
+![motor pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/a74aacac-0276-49b0-abc1-485906c2a775)
+
 
 The Arduino is powered by a 9v battery, which is turned on by a switch, and is responsible for powering and giving respective signals to the servomotor, it will be able to make the crossings effectively with ease, and also energize and receive the signals. the sensors, such as the ultrasound that sends and receives the signals to calculate the respective time, and with it, the distance to a certain obstacle, are also connected by serial to the color sensor, to receive the exact values ​​in RGBC
 
