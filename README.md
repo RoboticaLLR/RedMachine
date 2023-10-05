@@ -1,27 +1,26 @@
 # Engineering documentation/ Red Machine Team
 
-This repository contains all the materials required to make "Julian" The self-driven robot created by the team "Red Machine", that will participate in the category of Future Engineers at WRO in Panama in the season of 2023
+This repository contains all the materials required to make "Julian" The self-driven robot created by the team "Red Machine", that will participate in the category of Future Engineers at WRO in Panama on the 2023 season. 
 
 
  ![julian mirando derecha 2](https://github.com/RoboticaLLR/RedMachine/assets/146040533/a38632b7-3a61-49c0-ad2c-fa2d83c2da71)
 
  
 # Red Machine Members
--Angel Saul Rodriguez Guerra
-
 -Samuel Jose Galban Franco
 
 -Juan Diego Cano Barros
+
+-Angel Saul Rodriguez Guerra
 
 ![red machine team pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/b7eeb760-babc-4338-b1a4-e9a426606d17)
 
    
 # Introduction
-We have made our biggest effort to do the best robot we can. This has been really long road and it helped us a lot in things like programming, mechanicals, and design. After a lot of thinking and analyzing we created out own strategy based on the electronic components we had, 
-fervently believing that it will have a good performance in this edition of the WRO.
+We have made our biggest effort to do the best robot we can. This has been a really long road and it helped us a lot to learn programming, mechanicals, and design. After a lot of thinking and analyzing we created out our own strategy based on the electronic components we had, fervently believing that it will have a good performance in this edition of the WRO.
 
 # Mechanical Design
-The design of the robot was one of the biggest problems we have faced in all the competition stages. The acrylic bases we used on the previous competitions did not work, because they had a lot of imperfections, causing the traccion and direction system to be poorly located, as a really bad weight distribution. Despite all this, that chassis gave us an idea of how to design a new one.  So after the national competition, we decided to do a laser cut to brand new acrylic bases. After this, the chassis was really good in all aspects. 
+The robot design was one of the biggest problems we have faced in all the competition stages. The acrylic bases we used on the previous competitions did not work, because they had a lot of imperfections, causing the traccion and direction system to be poorly located, as a really bad weight distribution. Despite all this, that chassis gave us an idea of how to design a new one, so after the national competition, we decided to do a laser cut to brand new acrylic bases. After this, the chassis was really good in all aspects. 
 Besides that, we changed the robot's wheels for new ones that would hold better to the steering system, which also provided better aesthetics to the robot.
 
 
@@ -58,8 +57,8 @@ Electric motor: a device that converts electrical energy into mechanical movemen
 ![motor pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/a74aacac-0276-49b0-abc1-485906c2a775)
 
 
-The Arduino is powered by a 9v battery, which is turned on by a switch, and is responsible for powering and giving respective signals to the servomotor, it will be able to make the crossings effectively with ease, and also energize and receive the signals. the sensors, such as the ultrasound that sends and receives the signals to calculate the respective time, and with it, the distance to a certain obstacle, are also connected by serial to the color sensor, to receive the exact values ​​in RGBC
+The Arduino is powered by a 9v battery, which is turned on by a switch, and is responsible for powering and giving respective signals to the servomotor, so it will be able to make the crossings effectively with ease, and also energize and receive the signals. the sensors, such as the ultrasound that sends and receives the signals to calculate the respective time, and with it, the distance to a certain obstacle, are also connected by serial to the color sensor, to receive the exact values ​​in RGBC
 
 
-Moving on to the H bridge, this is connected and powered by a 3.7 v battery pack and is turned on by the same switch that turns on the Arduino.
-The H-bridge receives signals from the Arduino so it receives digital and analog signals, giving it the ability to move the motor in different directions and speeds. It is also responsible for powering the Esp 32 cam through the 5v port.
+Finally, the H bridge is connected and powered by a 3.7 v battery pack and is turned on by the same switch that turns on the Arduino.
+The H-bridge receives signals from the Arduino so it receives digital and analog signals, giving it the ability to move the motor in different directions and speeds. It is also responsible for powering the Esp32-cam through the 5v port.
