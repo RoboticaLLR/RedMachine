@@ -2,8 +2,8 @@
 
 This repository contains all the materials required to make "Julian" The self-driven robot created by the team "Red Machine", that will participate in the category of Future Engineers at WRO in Panama in the season of 2023
 <p align = "center" >
-   <img src="![julian mirando derecha](https://github.com/RoboticaLLR/RedMachine/assets/146040533/be0ea082-c6d4-438c-b9f1-d45ec83f7023)" width="400" height="400" />
-
+![julian mirando derecha 2](https://github.com/RoboticaLLR/RedMachine/assets/146040533/a38632b7-3a61-49c0-ad2c-fa2d83c2da71)
+ 
 # Red Machine Members
 -Angel Saul Rodriguez Guerra
 
