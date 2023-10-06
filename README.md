@@ -23,9 +23,7 @@ We have made our biggest effort to do the best robot we can. This has been a rea
 The robot design was one of the biggest problems we have faced in all the competition stages. The acrylic bases we used on the previous competitions did not work, because they had a lot of imperfections, causing the traccion and direction system to be poorly located, as a really bad weight distribution. Despite all this, that chassis gave us an idea of how to design a new one, so after the national competition, we decided to do a laser cut to brand new acrylic bases. After this, the chassis was really good in all aspects. 
 Besides that, we changed the robot's wheels for new ones that would hold better to the steering system, which also provided better aesthetics to the robot.
 
-
- ![Presentación sin título](https://github.com/RoboticaLLR/RedMachine/assets/146040398/5e0a29d8-d2a3-401f-85e7-1cde14bf6e51)
-
+![bases de acrilico pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/1ab2bf5b-492d-4d9f-b8cb-7154f9053f9f)
 
 # Strategy
 In this part of the process, we started to make the prototype a robot itself, by connecting all the electronic components and started coding to complete the first challenge and start earning our first 30 points. The components we used to complete this challenge were:
