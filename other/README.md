@@ -1,77 +1,66 @@
-CONSUMO DE ENERGIA  
 
-mega 2560          AMPERAJE: 340mA x min        VOLTAJE: 9V
 
-Hc-sr04             AMPERAJE: 20mA         VOLTAJE: 5V
-
-Motor     TORQUE: 3.2 N-m      AMPERAJE: 1A        VOLTAJE: 3.2 V
-
-sensor HC - SR04:
- Tensión de alimentación: 5 Vcc
-Frecuencia de trabajo: 40 KHz
-Rango máximo: 4.5 m
-Rango mínimo: 2.0 cm
-Duración mínima del pulso de disparo (nivel TTL): 10 μS.
-Duración del pulso eco de salida (nivel TTL): 100-25000 μS.
-Tiempo mínimo de espera entre una medida y el inicio de otra 20 mS.
+HC - SR04 sensor:
+Supply voltage: 5 Vdc
+Working frequency: 40 KHz
+Maximum range: 4.5 m
+Minimum range: 2.0 cm
+Minimum trigger pulse duration (TTL level): 10 μS.
+Output echo pulse duration (TTL level): 100-25000 μS.
+Minimum waiting time between one measurement and the start of another 20 mS.
 Arduino Mega 2560
 
 
-Microcontrolador: ATmega2560
-Tensión de alimentación: 5V
-Tensión de entrada recomendada: 7-12V
-Límite de entrada: 6-20V
-Pines digitales: 54 (14 con PWM)
-Entradas analógicas: 16
-Corriente máxima por pin: 40 mA
-Corriente máxima para el pin 3.3V: 50 mA
-Memoria flash: 256 KB
+Arduino mega 2560
+Supply voltage: 5V
+Recommended input voltage: 7-12V
+Input limit: 6-20V
+Digital pins: 54 (14 with PWM)
+Analog inputs: 16
+Maximum current per pin: 40 mA
+Maximum current for 3.3V pin: 50 mA
+Flash memory: 256 KB
 SRAM: 8 KB
 EEPROM: 4 KB
-Velocidad de reloj: 16 MHz
-Dimensiones:  101.52 mm x 53.3 mm
-Peso: 37 gramos
+Clock speed: 16 MHz
+Dimensions: 101.52 mm x 53.3 mm
+Weight: 37 grams
 
 
 
 
-Esp 32 cam
-Voltaje de Alimentación ESP 32 CAM: 5V
-Módulo Wi-Fi BT 802.11b/g/n
-Tipo de cámara: OV2640 2MP
-El modulo ESP 32CAM tiene CPU 32 bits de doble núcleo de baja potencia
-Frecuencia principal de hasta 240 MHz
-Potencia informática de hasta 600 DMIPS
-Velocidad de reloj de hasta 160 MHz
-Incorpora SRAM 520Kb, 4MPSRAM externa
-El modulo ESP-32 CAM Soporta interfaces: UART / SPI / I2C / PWM / ADC / DAC
-El modulo ESP-32-CAM Soporta cámaras OV2640 y OV7670, Flash Incorporado
-El modulo ESP 32-CAM Soporta tarjetas TF micro SD (Máximo 4 GB)
-El modulo ESP-32CAM Soporta la carga de imagen WiFi
-Compatible con modos de operación STA / AP / STA+AP
-Con antena PCB
-El modulo ESP32CAM integra conectores u.FL y FPC
+Esp 32 cam:
+
+Power Supply Voltage ESP 32 CAM: 5V
+Wi-Fi module BT 802.11b/g/n
+Camera type: OV2640 2MP
+ESP 32CAM module has 32-bit low power dual core CPU
+Main frequency up to 240 MHz
+Computing power up to 600 DMIPS
+Clock speed up to 160 MHz
+Built-in 520Kb SRAM, external 4MPSRAM
+ESP-32 CAM module Supports interfaces: UART / SPI / I2C / PWM / ADC / DAC
+ESP-32-CAM module Supports OV2640 and OV7670 cameras, Built-in Flash
+ESP 32-CAM module Supports micro SD TF card (Max 4 GB)
+ESP-32CAM module Supports WiFi image uploading
+Compatible with STA / AP / STA+AP operation modes
+With PCB antenna
+ESP32CAM module integrates u.FL and FPC connectors
 
 
-Sensor adafruit TCS 34725
-revolution
+
+Adafruit TCS 34725 sensor
 At the output - 288 counts/revolution
+Input voltage: 3 to 5 V
+Input current: up to 20mA
+Base chip: TCS3472
+Weight: 2g
+Dimensions: 20mm X 20mm
 
-
-
-
-
-Voltaje de entrada: 3 a 5 V
-Corriente de entrada: hasta 20mA
-Chip base: TCS3472
-Peso: 2g
-Dimensiones: 20mm X 20mm
 Hex Core
-TORQUE: 3.2 N-m      AMPERAJE: 1A        VOLTAJE: 3.2 V
-
-
+TORQUE: 3.2 N-m      
 Output Shaft: 5mm Female Hex
 Weight: 7 oz
 Voltage: 3.2 V      DC
 Free Speed: 125 RPM
-Stall Torque: 3.2a
+Stall Torque: 1a
