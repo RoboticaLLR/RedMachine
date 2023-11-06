@@ -15,7 +15,8 @@ Minimum trigger pulse duration (TTL level): 10 μS.
 Output echo pulse duration (TTL level): 100-25000 μS.
 
 Minimum waiting time between one measurement and the start of another 20 mS.
-Arduino Mega 2560
+
+
 
 
 Arduino mega 2560
@@ -45,6 +46,8 @@ Clock speed: 16 MHz
 Dimensions: 101.52 mm x 53.3 mm
 
 Weight: 37 grams
+
+
 
 
 
@@ -83,6 +86,8 @@ ESP32CAM module integrates u.FL and FPC connectors
 
 
 
+
+
 Adafruit TCS 34725 sensor
 
 At the output - 288 counts/revolution
@@ -96,6 +101,9 @@ Base chip: TCS3472
 Weight: 2g
 
 Dimensions: 20mm X 20mm
+
+
+
 
 
 Hex Core
